@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Template</title>
+
+<!-- Bootstrap -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/moveme.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Логотип</a>
+    </div> 
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li class="active"><a href="blog.html">Блог</a></li>
+            <li><a href="clients.html">Клиенты</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Дружить<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.facebook.com">Facebook</a></li>
+                    <li><a href="http://www.twitter.com">Twitter</a></li>
+                    <li><a href="https://plus.google.com">Google+</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>    
+</nav>
+<!-- End Navigation -->
+<div class="intro-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <img class="img-responsive tpad" src="images/moveMe.png">
+            </div>
+            <div class="col-xs-9">
+                <h1>Зоголовак <span class="text-muted">&raquo; Блог</span></h1>
+                <p class="lead">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>
+        </div>
+    </div>    
+</div>
+<!-- End Intro Text -->
+<div class="container padded">
+    <div class="row">
+        <div class="col-sm-8 blog">
+            <section>
+                <h1><a href="#">Зоголовок</a></h1>
+                <p class="lead"><a href="index.html">Текст</a></p>
+                <hr>
+                <p><span class="glyphicon glyphicon-time"></span> Дата публикаций</p>
+                <hr>
+                <img src="images/blog1.jpg" class="img-responsive">
+                <hr>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                <a class="btn btn-primary" href="#">Читать &raquo;</a>
+                <hr>
+            </section>
+            <section>
+                <h1><a href="#">Зоголовок</a></h1>
+                <p class="lead"><a href="index.html">Текст</a></p>
+                <hr>
+                <p><span class="glyphicon glyphicon-time"></span>Дата публикаций</p>
+                <hr>
+                <img src="images/blog2.jpg" class="img-responsive">
+                <hr>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                <a class="btn btn-primary" href="#">Читать &raquo;</a>
+                <hr>
+            </section>
+            <section>
+                <h1><a href="#">Зоголовок</a></h1>
+                <p class="lead"><a href="index.html">Текст</a></p>
+                <hr>
+                <p><span class="glyphicon glyphicon-time"></span>Дата публикаций</p>
+                <hr>
+                <img src="images/blog3.jpg" class="img-responsive">
+                <hr>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                <a class="btn btn-primary" href="#">Читать &raquo;</a>
+                <hr>
+            </section>
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 sidebar">
+            <section>
+                <h3 class="tpad">Поиск</h3>
+                <div class="input-group input-group-lg tpad">
+                    <span class="input-group-addon glyphicon glyphicon-search"></span>
+                    <input type="text" class="form-control input-lg" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Го!</button>
+                    </span>
+                </div>
+                <hr>
+            </section>
+            <section>
+                <h3 class="tpad">Текст</h3>
+                <div class="list-group tpad">
+                    <a href="#" class="list-group-item active"><span class="badge">38</span>Текст</a>
+                    <a href="#" class="list-group-item"><span class="badge">14</span>Текст</a>
+                    <a href="#" class="list-group-item"><span class="badge">9</span> Текст</a>
+                    <a href="#" class="list-group-item"><span class="badge">7</span>Текст</a>
+                    <a href="#" class="list-group-item"><span class="badge">5</span>Текст</a>
+                    <a href="#" class="list-group-item"><span class="badge">27</span>Текст</a>
+                </div>
+                <hr>
+            </section>
+            <section>
+                <h3 class="tpad">Зоголовок</h3>
+                <div class="media tpad">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/user.jpg" alt="user">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Текст</h4>
+                        <p class="bpad">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    </div>
+                </div>
+            
+            </section>
+        </div>
+    </div>    
+</div>    
+<!-- End Page Content -->
+<div class="marketing">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive" src="images/app.png">
+            </div>
+            <div class="col-sm-6">
+                <h3 class="tpad">Зоголовок</h3><hr>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <p><a class="btn btn-large btn-primary" href="#">КНОПКА</a></p>
+            </div>
+        </div>
+    </div>    
+</div> 
+<!-- End Marketing Section -->
+<div class="info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 tabbable">
+                <!-- Tabs go here -->
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#android" data-toggle="tab">Android</a></li>
+                    <li><a href="#bb" data-toggle="tab">Blackberry</a></li>
+                    <li><a href="#ios" data-toggle="tab">iOS</a></li>
+                    <li><a href="#win" data-toggle="tab">Windows</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="android"><p><img src="images/gplay.jpg" alt="google" class="pull-right">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                    <div class="tab-pane fade in" id="bb"><p><img src="images/bbstore.jpg" alt="google" class="pull-right">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                    <div class="tab-pane fade in" id="ios"><p><img src="images/appstore.jpg" alt="google" class="pull-right">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                    <div class="tab-pane fade in" id="win"><p><img src="images/winstore.jpg" alt="google" class="pull-right">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2">
+                <!-- Quote go here -->
+                <blockquote>
+                    <p>&ldquo;Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века..&rdquo;</p>
+                    <small>Автор, <cite title="source title">Цитата</cite></small>
+                </blockquote>
+            </div>
+        </div>
+    </div>       
+</div>
+<!-- info panel end -->    
+<div class="ftr">
+    <div class="container">
+        <div class="row">
+            <footer>
+                <div class="pull-left ft_space">
+                    <address>
+                    <h3>Зоголовк</h3>
+                    Текст<br>
+                    Текст<br>
+                    <a href="mailto: Email@email.ru">Email@email.ru</a><br>
+                    <abbr title="Phone">P:</abbr>906 123-4567
+                    </address>
+                </div>
+                <div class="pull-right ft_space">
+                    <img class="img-responsive" src="images/moveMe.png">
+                    <p>&copy; Текст. 2015</p>
+                </div>
+            </footer>
+        </div>
+    </div>    
+    
+</div>    
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
